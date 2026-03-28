@@ -13,11 +13,11 @@ A lightweight localhost web app that records your meetings, transcribes them wit
 - Markdown: clean, portable notes
 - Obsidian: knowledge base
 - Python: `app.py`
-- Localhost: simple UI, no cloud, no api, 100% private
+- Localhost: simple UI, no cloud, no API, 100% private
 
 ## No Cloud, No Commitment, No Compromise
 
-Most AI note tools require cloud services, api keys, and $$$. Squirrel Notes runs locally so you have full control of your recordings, transcripts, and notes.
+Most AI note tools require cloud services, API keys, and $$$. Squirrel Notes runs locally so you have full control of your recordings, transcripts, and notes.
 
 Built for developers, tinkerers, and ~~paranoid~~ *privacy-conscious* users.
 
