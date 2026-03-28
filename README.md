@@ -23,7 +23,7 @@ Built for developers, tinkerers, and ~~paranoid~~ *privacy-conscious* users.
 
 ## Requirements
 
-- Python 3.x
+- Python 3.9+
 - [Ollama](https://ollama.com) installed and running
 - [Whisper](https://github.com/openai/whisper) installed
 - Microphone access
