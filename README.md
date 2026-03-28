@@ -6,18 +6,9 @@
 
 A lightweight localhost web app that records your meetings, transcribes them with [OpenAI Whisper](https://github.com/openai/whisper) (fully offline), and generates structured meeting summaries using a local [Ollama](https://ollama.com) LLM. Outputs are saved as Markdown files — perfect for an [Obsidian](https://obsidian.md) vault.
 
-## Built With
-
-- Whisper: local transcription
-- Ollama: local LLM summaries
-- Markdown: clean, portable notes
-- Obsidian: knowledge base
-- Python: `app.py`
-- Localhost: simple UI, no cloud, no API, 100% private
-
 ## No Cloud, No Commitment, No Compromise
 
-Most AI note tools require cloud services, API keys, and $$$. Squirrel Notes runs locally so you have full control of your recordings, transcripts, and notes.
+Many AI notetaking tools require cloud services, API keys, and $$$. Squirrel Notes runs locally so you have full control of your recordings, transcripts, and notes.
 
 Built for developers, tinkerers, and ~~paranoid~~ *privacy-conscious* users.
 
@@ -28,18 +19,6 @@ Built for developers, tinkerers, and ~~paranoid~~ *privacy-conscious* users.
 - [Whisper](https://github.com/openai/whisper) installed
 - Microphone access
 - [Obsidian](https://obsidian.md) (optional really, but *it's dope!*)
-
-
-
-## Contributing
-
-Fork it.  Modify it.  Break it.  Make it better.  Pull requests welcome.
-
-
-## Support
-
-If this project helps you and you want to support **Squirrel Notes**, you can adopt a puppy from the Humane Society and/or just be a rad human. 
-
 
 ## Features
 
@@ -96,7 +75,6 @@ python app.py
 
 Then open [http://localhost:5000](http://localhost:5000) in your browser.
 
-
 ## First-Time Configuration
 
 Open the **Settings** tab before your first recording:
@@ -122,7 +100,6 @@ All folders are created automatically. Settings are saved to `config.json` in th
    - `Squirrel Notes/audio/yyyy_mm_dd_hh_mm.wav` — the raw recording
    - `Squirrel Notes/summaries/yyyy_mm_dd_hh_mm.md` — the structured meeting summary
    - `Squirrel Notes/raw/yyyy_mm_dd_hh_mm.txt` — the full Whisper transcript
-
 
 ## Choosing a Whisper Model
 
@@ -193,7 +170,10 @@ The recording may have been too short, or the transcript may lack enough detail.
 - `config.json` contains local paths and model names (no credentials) which can be configured on the front-end, in the settings tab.
 
 
-## License
+## Hey, look a Squirrel!
 
-MIT — use freely, modify as you like.
+Hi, I'm Christie. Lots of folks call me Chris. I like to build things to learn something new or solve a problem. Squirrel Notes is one of those things. You can find me over yonder at https://christie.technology
+
+## GitHub
+https://github.com/christie304/squirrel-notes - Fork it.  Modify it.  Break it.  Make it better. I'd love to see what you build.
 
