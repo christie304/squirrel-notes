@@ -163,7 +163,7 @@ squirrel-notes/
 ├── app.py              # Main Flask application
 ├── requirements.txt    # Python dependencies
 ├── start.bat           # Windows launcher
-├── config.json         # Your settings (auto-generated, gitignored)
+├── config.json         # Your settings (auto-generated; consider adding to .gitignore)
 └── README.md
 ```
 
