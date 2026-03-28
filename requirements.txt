@@ -1,0 +1,14 @@
+# Squirrel Notes -- Python dependencies
+# Install with: pip install -r requirements.txt
+
+flask>=2.3.0
+sounddevice>=0.4.6
+soundfile>=0.12.1
+numpy>=1.24.0
+openai-whisper>=20231117
+requests>=2.31.0
+
+# torch is required by openai-whisper.
+# If "pip install openai-whisper" doesn't pull it automatically, install manually:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+# (CPU-only is fine; GPU/CUDA will be faster if you have an NVIDIA card)
